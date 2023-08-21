@@ -1,0 +1,326 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family:Arial, Helvetica, sans-serif ;
+    scroll-behavior: smooth;
+    /* background-color: dimgrey; */
+}
+.text-while{
+    color:#fff !important;
+}
+
+.row{
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.col{
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.col-2{
+    width: 50%;
+}
+
+.col-5{
+    width: 20%;
+}
+
+.clear{
+    clear: both;
+}
+
+#main{
+
+
+}
+/* begin header */
+#header {
+    height: 46px;
+    background-color: rgba(144, 139, 150, 0.87);
+    box-shadow: 30px 0 20px 30px #a2b4d4;
+    position: fixed;
+    top:0;
+    left : 0;
+    right : 0;
+    z-index: 1;
+    display: inline-block;
+    text-align: right;
+}
+.header-img{
+    position: absolute;
+}
+.logo{
+    line-height: 46px;
+    left: 0;
+    width: 120px;
+    padding-bottom: 7px;
+    cursor: pointer;
+}
+
+#nav {
+     display: inline-block;
+     
+}
+
+#nav li{
+    display: inline-block;
+    position: relative;
+}
+#nav li a{
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 26px;
+    display: block;
+    right: 0;
+    color: #fff;
+    border-radius: 10px;
+}
+#nav > li:hover > a{
+    color:#000;
+    background-color: #ccc;
+}
+#header .sign{
+    float: right;
+}
+#header .in{
+    color:#fff;
+    font-size: 15px;
+    padding: 0 20px;
+    line-height: 46px;
+    display: block;
+}
+#header .sign:hover{
+    background-color: rgba(218, 173, 50, 0.87);
+    cursor: pointer;
+    text-decoration: underline #fff;
+}
+/* end header */
+
+#slider { 
+    position: relative;
+    margin-top: 46px;
+    padding-top: 50%;
+    background: url('/ourlife/assets/css/img/slider1.jpg')  top center / cover no-repeat;
+}
+#slider .text-content{
+    position: absolute;
+    bottom: 50%;
+    color :#fff;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    
+
+
+}
+#slider .text-heading{
+    font-size: 50px;
+    margin: 40px;
+    
+
+}
+#slider .text-body{
+    font-size: 40px;
+    margin : 20px;
+}
+
+/* Profile  */
+#profile {
+}
+/* begin our-story */
+#profile .content-section{
+    width: 900px;
+    padding: 64px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+#profile .our-heading{
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+#profile .about{
+    text-align: center;
+    text-align: justify;
+    line-height: 1.6;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+#profile .our-member{
+    padding: 30px 0;
+}
+
+/* end our story */
+/* end profile */
+
+/* begin content */
+/* begin mission */
+
+#content{
+
+}
+/* begin mission */
+#content .mission{
+    position: relative;
+    margin-top: 46px;
+    padding-top: 50%;
+    background: url('/ourlife/assets/css/img/mission.jpg') top center / cover no-repeat;
+}
+
+.text-mission{
+    padding: 20px;
+    position: absolute;
+    bottom: 20%;
+    left: 70%;
+    color: #fff;
+}
+
+.content-heading{
+    padding: 50px 0;
+    font-size: 60px;
+}
+
+.content-about{
+    line-height: 1.6;
+    font-size: 20px;
+}
+/* end mission */
+
+/* begin vision  */
+#content .vision{
+    position: relative;
+    margin-top: 20px;
+    padding-top: 50%;
+    background: url('/ourlife/assets/css/img/vision.jpg') top center / cover no-repeat;
+}
+
+.text-vision{
+    padding: 20px;
+    position: absolute;
+    bottom: 20%;
+    right: 70%;
+    color: #fff;
+}
+
+/* end vision  */
+
+/* begin core */
+.core{
+    padding: 0 20px;
+}
+
+.core-heading{
+    text-align: center;
+    margin: 46px 0;
+}
+.core-header{
+    font-size: 40px;
+}
+.core-slogan{
+    font-size: 20px;
+}
+
+.core-form1{
+    float: left;
+
+}
+
+.form1{
+    position: relative;
+}
+
+.form2{
+    padding: 8px;
+    position: relative;
+}
+.core-img{
+    width: 60%;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+
+.core-text{
+    position: absolute;  
+    left: 60%;  
+    bottom: 50%;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.core-text1{
+    position: absolute;
+    left: 60%;
+    bottom: 15%;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 1.4;
+}
+/* end core */  
+
+/* begin footer */
+#footer{
+    height:500px;
+    background-color: #fff;
+    padding: 30px;
+}
+
+.footer-section{
+
+}
+.logo{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-logo{
+   
+}
+.end-logo{
+    width: 100%;
+}
+
+.about2{
+
+}
+.footer-about{
+    text-align: center;
+}
+.footer-about li{
+    list-style-type: none ;
+}
+/* end about */
+
+.us{
+    text-align: center;
+}
+.footer-us{
+    
+}
+.us-product{
+    margin-bottom: 20px;
+}
+.product-text{
+
+}
+.us-service{
+
+}
+.service-text{
+
+}
+.footer-us li{
+    list-style-type: none;
+}
+/* end footer */
