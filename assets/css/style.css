@@ -6,10 +6,20 @@
 html{
     font-family:Arial, Helvetica, sans-serif ;
     scroll-behavior: smooth;
+    /* background-color: rgba(0, 0, 0, 0.3) */
     /* background-color: dimgrey; */
 }
+
+
 .text-while{
     color:#fff !important;
+}
+
+.mt-22{
+    margin: 22px 0;
+}
+.mt-8{
+    margin-bottom: 20px;
 }
 
 .row{
@@ -271,9 +281,7 @@ html{
 
 /* begin footer */
 #footer{
-    height:500px;
-    background-color: #fff;
-    padding: 30px;
+    text-align: center;
 }
 
 .footer-section{
@@ -289,6 +297,7 @@ html{
 }
 .end-logo{
     width: 100%;
+    margin-top: 50%;
 }
 
 .about2{
@@ -296,9 +305,18 @@ html{
 }
 .footer-about{
     text-align: center;
+
 }
+
 .footer-about li{
     list-style-type: none ;
+}
+
+.footer-about li a{
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    margin: 5px;
 }
 /* end about */
 
@@ -308,19 +326,64 @@ html{
 .footer-us{
     
 }
-.us-product{
+.us-product {
     margin-bottom: 20px;
 }
+
 .product-text{
-
+    font-size: 14;
 }
-.us-service{
 
+.product-text a{
+    text-decoration: none;
+    color: #000;
 }
-.service-text{
-
+.service-about a {
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    margin: 5px;
 }
 .footer-us li{
     list-style-type: none;
 }
+
+/* end us */
+
+.ex{
+    text-align: center;
+}
+.ex-text a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+/* end ex */
+
+
+.contact{
+    text-align: center;
+}
+.footer-contract{
+
+}
+.contact-email{
+    /* display: inline-block; */
+}
+.social{
+    margin: 30px;
+}
+
+.contact-email a{
+    text-decoration: none;
+    color: #000;
+}
+.social a{
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    margin: 6px;
+}
+
 /* end footer */
