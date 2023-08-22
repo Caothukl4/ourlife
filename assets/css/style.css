@@ -6,7 +6,7 @@
 html{
     font-family:Arial, Helvetica, sans-serif ;
     scroll-behavior: smooth;
-    /* background-color: rgba(0, 0, 0, 0.3) */
+    background-color: rgba(221, 186, 109, 0.3)
     /* background-color: dimgrey; */
 }
 
@@ -47,13 +47,12 @@ html{
 
 #main{
 
-
 }
 /* begin header */
 #header {
     height: 46px;
-    background-color: rgba(144, 139, 150, 0.87);
-    box-shadow: 30px 0 20px 30px #a2b4d4;
+    background-color: rgba(17, 17, 17, 0.87);
+    box-shadow: 30px 0 20px 30px #6b5c5c;
     position: fixed;
     top:0;
     left : 0;
@@ -61,6 +60,7 @@ html{
     z-index: 1;
     display: inline-block;
     text-align: right;
+    border: 0 hidden;
 }
 .header-img{
     position: absolute;
@@ -114,7 +114,7 @@ html{
 
 #slider { 
     position: relative;
-    margin-top: 46px;
+    /* margin-top: 46px; */
     padding-top: 50%;
     background: url('/ourlife/ourlife/assets/css/img/slider1.jpg')  top center / cover no-repeat;
 }
@@ -141,10 +141,10 @@ html{
 }
 
 /* Profile  */
-#profile {
+.profile-section{
 }
 /* begin our-story */
-#profile .content-section{
+.profile-section .content-section{
     width: 900px;
     padding: 64px 0px;
     margin-left: auto;
@@ -152,14 +152,14 @@ html{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     text-align: center;
 }
-#profile .our-heading{
+.profile-section .our-heading{
     font-size: 30px;
     margin-bottom: 20px;
     text-align: center;
     
 }
 
-#profile .about{
+.profile-section .about{
     text-align: center;
     text-align: justify;
     line-height: 1.6;
@@ -167,7 +167,7 @@ html{
     padding-right: 20px;
 }
 
-#profile .our-member{
+.profile-section .our-member{
     padding: 30px 0;
 }
 
@@ -181,7 +181,7 @@ html{
 
 }
 /* begin mission */
-#content .mission{
+#content .mission-section{
     position: relative;
     margin-top: 46px;
     padding-top: 50%;
@@ -208,7 +208,7 @@ html{
 /* end mission */
 
 /* begin vision  */
-#content .vision{
+#content .vision-section{
     position: relative;
     margin-top: 20px;
     padding-top: 50%;
@@ -226,7 +226,7 @@ html{
 /* end vision  */
 
 /* begin core */
-.core{
+.core-section{
     padding: 0 20px;
 }
 
@@ -281,11 +281,13 @@ html{
 
 /* begin footer */
 #footer{
-    text-align: center;
+
 }
 
 .footer-section{
-
+    text-align: center;
+    padding-left: 90px;
+    background-color: rgba(64, 85, 133, 0.87);
 }
 .logo{
     text-align: center;
