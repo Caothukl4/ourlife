@@ -142,6 +142,7 @@ html{
 
 /* Profile  */
 .profile-section{
+    background-color: #fff;
 }
 /* begin our-story */
 .profile-section .content-section{
@@ -183,7 +184,7 @@ html{
 /* begin mission */
 #content .mission-section{
     position: relative;
-    margin-top: 46px;
+    /* margin-top: 46px; */
     padding-top: 50%;
     background: url('/ourlife/ourlife/assets/css/img/mission.jpg') top center / cover no-repeat;
 }
@@ -287,7 +288,7 @@ html{
 .footer-section{
     text-align: center;
     padding-left: 90px;
-    background-color: rgba(64, 85, 133, 0.87);
+    background-color:black;
 }
 .logo{
     text-align: center;
@@ -307,6 +308,7 @@ html{
 }
 .footer-about{
     text-align: center;
+    
 
 }
 
@@ -316,9 +318,10 @@ html{
 
 .footer-about li a{
     text-decoration: none;
-    color: #000;
+    color: #fff;
     display: inline-block;
     margin: 5px;
+
 }
 /* end about */
 
@@ -334,15 +337,17 @@ html{
 
 .product-text{
     font-size: 14;
+    
 }
+
 
 .product-text a{
     text-decoration: none;
-    color: #000;
+    color: #fff;
 }
 .service-about a {
     text-decoration: none;
-    color: #000;
+    color: #fff;
     display: inline-block;
     margin: 5px;
 }
@@ -357,7 +362,7 @@ html{
 }
 .ex-text a {
     text-decoration: none;
-    color: #000;
+    color: #fff;
 }
 
 
@@ -379,11 +384,11 @@ html{
 
 .contact-email a{
     text-decoration: none;
-    color: #000;
+    color: #fff;
 }
 .social a{
     text-decoration: none;
-    color: #000;
+    color: #fff;
     display: inline-block;
     margin: 6px;
 }
